@@ -26,3 +26,6 @@ if (userAge < 18){
 
 console.log(discountedTicket);
 
+const htmlElement = document.getElementById('price');
+
+htmlElement.innerHTML  += ` ${discountedTicket}`;
